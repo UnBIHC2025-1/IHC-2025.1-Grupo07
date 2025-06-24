@@ -1,3 +1,4 @@
+hide: [navigation]
 # Geração de conteúdo
 
 "Para produzir conteúdo digital acessível, a primeira etapa é compreender que tudo o que comunicamos impacta as pessoas; por isso, é fundamental começar pela forma como abordamos nosso público e criar a cultura e o hábito de acessibilidade digital em nossas equipes". Nesse sentido, nesta seção se apresentam boas práticas em formato de checklist para garantir acessibilidade na geração de conteúdo.

@@ -1,41 +1,83 @@
-repo_url: https://github.com/vitorfleonardo/VerificAAA
-repo_name: VerificAAA
+site_name: A11Y Pocket
+site_url: https://unbihc2025-1.github.io/IHC-2025.1-Grupo07/
+repo_url: https://github.com/UnBIHC2025-1/IHC-2025.1-Grupo07.git
+repo_name: IHC-2025.1-Grupo07
 
-site_url: https://github.com/vitorfleonardo/VerificAAA
-site_name: VerificAAA
-
-use_directory_urls: False
+use_directory_urls: false
 
 nav:
-  - Início - VerificAAA: 'index.md'
+  - Início - A11Y Pocket: 'index.md'
 
   - Desenvolvimento Web:
-    - Desenvolvimento: 'devWeb/non_text_content.md'
+      - Desenvolvimento: 'devWeb/non_text_content.md'
 
   - Design:
-    - Design: 'design/design.md'
-  
+      - Design: 'design/design.md'
+
   - Geração de Conteúdo:
-    - Conteúdo: 'geracaoConteudo/conteudo.md'
+      - Conteúdo: 'geracaoConteudo/conteudo.md'
 
   - Gestão de Projetos:
-    - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
+      - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
 
   - Ferramentas:
-    - Ferramentas de Acessibilidade: 'tools/ferramentas.md'
+      - Ferramentas de Acessibilidade: 'tools/ferramentas.md'
 
 theme:
-  name: readthedocs
-  locale: pt_BR
-  titles_only: true
+  name: material
   logo: imagens/logo-verificaaa.png
   favicon: imagens/logo-verificaaa.png
+  language: pt
+  features:
+    - navigation.tabs              
+    - navigation.tabs.sticky       
+    - navigation.instant          
+    - navigation.instant.progress   
+    - navigation.top               
+    - navigation.expand            
+    - search.suggest               
+    - search.highlight             
+    - search.share                 
+
+  palette:
+    - scheme: default
+      primary: teal
+      accent: light blue
+      toggle:
+        icon: material/lightbulb
+        name: Modo escuro
+    - scheme: slate
+      primary: teal
+      accent: light blue
+      toggle:
+        icon: material/lightbulb-outline
+        name: Modo claro
 
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
-      custom_checkbox: false
+      custom_checkbox: true
       clickable_checkbox: true
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.blocks.caption
+  - admonition
 
 extra_css:
-  - stylesheets/extra.css
+  # - stylesheets/extra.css
+  - stylesheets/custom.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/chart.js
+  - https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels
+  - js/progresso.js
+
