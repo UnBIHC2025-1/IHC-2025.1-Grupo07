@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
     
     <title>Suculovers</title>
 </head>
@@ -15,8 +16,8 @@
 <body>
     <a href="#conteudo" class="skip-link">Pular para o conteúdo principal do guia</a> 
 
-    <header role="banner">
-        <nav aria-label="nav-label" role="navigation" class="navbar">
+    <header>
+        <nav aria-label="Menu principal" role="navigation" class="navbar">
             <div class="logo">
                 <img class="logo" src="static/logo.svg" alt="Logo do site Suculovers">
                 <h1>Suculovers</h1>
@@ -30,33 +31,33 @@
             </ul>
         </nav>
 
-        <div class="logo-slogan">
+        <div class="logo-slogan" id="inicio">
             <img class="logo-maior" src="static/logo.svg" alt="Logo do site Suculovers">
             <div class="slogan-texto">
-                <h1>Suculovers</h1>
-                <p>Um guia iniciante para amantes de suculentas!</p>
-                <p>O Suculovers é um guia simples e completo para quem quer começar a cuidar de suculentas. Seja você um iniciante curioso ou alguém que já ama plantas, aqui você encontrará dicas práticas, sugestões de espécies e informações úteis para cultivar suculentas com sucesso.</p>
-                <p>As suculentas são plantas versáteis, bonitas e ideais para quem tem uma rotina agitada. Elas exigem poucos cuidados e se adaptam bem a diversos ambientes, desde apartamentos pequenos até jardins abertos.</p>
-                <p>Neste guia, vamos explorar as espécies mais indicadas para iniciantes, como cuidar corretamente dessas plantas e curiosidades que tornam as suculentas tão especiais e adoradas ao redor do mundo.</p>
+                <h1 class="titulo-principal">Suculovers,</h1>
+                <p class="subtitulo">Um guia iniciante para amantes de suculentas!</p>
             </div>
         </div>
     </header>   
 
-    <main id="conteudo" role="main">
+    <main id="conteudo">
         <section id="introducao">
             <h2>Introdução</h2>
             <p>As suculentas são plantas que armazenam água em suas folhas, caules ou raízes. Por isso, são extremamente resistentes à seca e ideais para quem busca praticidade.</p>
             <p>Com formatos variados, cores vibrantes e flores delicadas, elas se tornaram populares na decoração de interiores e jardins. Além de bonitas, são fáceis de cuidar.</p>
             <p>Este guia foi criado para ajudar você a escolher suas primeiras suculentas, aprender os cuidados básicos e se apaixonar por esse universo verde e encantador.</p>
+            <p>O Suculovers é um guia simples e completo para quem quer começar a cuidar de suculentas. Seja você um iniciante curioso ou alguém que já ama plantas, aqui você encontrará dicas práticas, sugestões de espécies e informações úteis para cultivar suculentas com sucesso.</p>
+            <p>As suculentas são plantas versáteis, bonitas e ideais para quem tem uma rotina agitada. Elas exigem poucos cuidados e se adaptam bem a diversos ambientes, desde apartamentos pequenos até jardins abertos.</p>
+            <p>Neste guia, vamos explorar as espécies mais indicadas para iniciantes, como cuidar corretamente dessas plantas e curiosidades que tornam as suculentas tão especiais e adoradas ao redor do mundo.</p>
         </section>
 
         <section id="plantas-faceis">
             <h2>Plantas Fáceis de Cuidar</h2>
 
-            <div aria-label="nav-plants" role="navigation">
+            <div aria-label="Menu de Plantas" role="navigation">
                 <ul>
-                    <li><a href="#babosa">Conheça a planta Babosa</a></li>
-                    <li><a href="#echeveria">Conheça a planta Echeveria</a></li>
+                    <li><a href="#babosa">Conheça a Babosa</a></li>
+                    <li><a href="#echeveria">Saiba mais sobre a Echeveria</a></li>
                 </ul>
             </div>
 
@@ -97,11 +98,13 @@
                 <label for="email">Endereço de e-mail (obrigatório):</label>
                 <input id="email" type="email" required>
                 <label for="mensagem">Mensagem (obrigatório):</label>
-                <input id="mensagem" type="text" required>
-                <button type="submit">Enviar</button>
+                <textarea id="mensagem" required></textarea>
+                <button type="submit">Enviar o formulário</button>
             </form>
         </section>
     </main>
+
+    <a href="#inicio" class="skip-link">Voltar para o ínicio do guia</a> 
 
     <footer>
         <p>2025 - Projeto acadêmico de Interação Humano Computador</p>
