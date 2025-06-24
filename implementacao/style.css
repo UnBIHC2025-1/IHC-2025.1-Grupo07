@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #FAFAFA;
+    color: #222;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+  color: #2b6e2f;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  background-color: #ffcc00;
+  color: #fff;
+  padding: 10px;
+  z-index: 1000;
+}
+
+
+.navbar {
+    background-color: #66BB6A;
+    color: #fefefe;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin: 0;
+    padding: zero;
+    gap: 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+    }
+
+.nav-links li a {
+  color: white;         
+  text-decoration: none;  
+  transition: color 0.3s ease; 
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+
+.logo-maior {
+    height: 550px;
+    width: 550px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 8px;
+  background: #fff;
+  color: #000;
+  z-index: 1000;
+}
+
+.suculentas-img {
+    height: 300px;
+    width: 300px;
+}
+
+.logo-slogan {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    gap: 20px; /* Espaço entre imagem e texto */
+}
+
+.slogan-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente dentro do contêiner */
+}
