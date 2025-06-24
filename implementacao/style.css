@@ -13,8 +13,8 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 900;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 600;
   color: #2b6e2f;
 }
 
@@ -164,9 +164,11 @@ ul {
 }
 
 form {
+  align-content: center;
   display: flex;
   flex-direction: column;
   gap: 15px;
+  margin-top: 15px;
   max-width: 500px;
 }
 
@@ -184,12 +186,13 @@ input, textarea, button {
 input:focus,
 textarea:focus,
 button:focus {
-  outline: 2px solid #66BB6A;
+  outline: 2px solid #1e4f1e;
 }
 
 button {
-  background-color: #2b6e2f;
+  background-color: #66BB6A;
   color: white;
+  font-weight: 600;
   border: none;
   cursor: pointer;
   transition: background 0.3s ease;
@@ -197,6 +200,17 @@ button {
 }
 
 button:hover {
+  background-color: #1e4f1e;
+}
+
+body.using-keyboard input:focus,
+body.using-keyboard textarea:focus,
+body.using-keyboard button:focus {
+  outline: 2px solid #1e4f1e;
+  outline-offset: 2px;
+}
+
+body.using-keyboard button:focus {
   background-color: #1e4f1e;
 }
 

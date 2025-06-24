@@ -14,3 +14,4 @@ function handleMouseDownOnce() {
 }
 
 window.addEventListener("keydown", handleFirstTab);
+
