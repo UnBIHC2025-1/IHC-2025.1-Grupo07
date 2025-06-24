@@ -7,7 +7,7 @@ hide: [navigation]
 
 O A11Y Pocket é um projeto desenvolvido no contexto da disciplina de Interação Humano-Computador (IHC), ministrada pela professora Rejane Maria da Costa Figueiredo na Universidade de Brasília (UnB). Seu principal objetivo é oferecer um checklist prático de acessibilidade digital, voltado para diferentes áreas de projeto, como desenvolvimento web, design, produção de conteúdo e gestão de projetos.
 
-O conteúdo do A11Y Pocket é baseado em diretrizes reconhecidas, como a [WCAG 2.2](https://www.w3.org/TR/WCAG22/), a norma brasileira [NBR 17225](https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-17225-Acessibilidade-Digital.pdf) e o [Guia de Boas Práticas para Acessibilidade Digital](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Além disso, o projeto reúne um compilado de ferramentas de acessibilidade úteis para apoiar a implementação e a avaliação de soluções acessíveis.
+O conteúdo do A11Y Pocket é baseado em diretrizes reconhecidas, como a [WCAG 2.2](https://www.w3.org/TR/WCAG22/), a norma brasileira [NBR 17225](https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-17225-Acessibilidade-Digital.pdf) e o [Guia de Boas Práticas para Acessibilidade Digital](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Além disso, o projeto reúne um compilado de ferramentas de acessibilidade úteis para apoiar a implementação e a avaliação de soluções acessíveis. Tudo aquilo que foi adionado por nós está em negrito.
 
 ## Como usar o A11Y Pocket
 
@@ -24,7 +24,7 @@ A ferramenta também gera gráficos que ajudam a visualizar o progresso da acess
 
 #### Desenvolvimento Web e Design
 
-Nas abas **Desenvolvimento Web** e **Design**, os itens estão organizados por níveis de conformidade da [WCAG 2.2](https://www.w3.org/TR/WCAG22/): 
+Nas abas **Desenvolvimento Web** e **Design**, os itens estão organizados por níveis de conformidade da [WCAG 2.2](https://www.w3.org/TR/WCAG22/), onde A é o mais baixo e AAA o mais alto: 
 
 - **Nível A**
 - **Nível AA**
