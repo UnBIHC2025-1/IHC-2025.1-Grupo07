@@ -1,9 +1,14 @@
 hide: [navigation]
-# VerificaAAA
+
+
+# A11Y Pocket
 
 ## Descrição
 
-O VerificaAAA é um projeto criado a partir do curso de Interação Humano Computador, ministrado pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). Nesse sentido, seu objetivo final é fornecer um checklist prático de acessibilidade para projetos, principalmente de desenvolvimento, que incluem: desenvolvimento web, design, geração de conteúdo e gestão de projetos.
+O A11Y Pocket é um projeto desenvolvido no contexto da disciplina de Interação Humano-Computador (IHC), ministrada pela professora Rejane Maria da Costa Figueiredo na Universidade de Brasília (UnB). Seu principal objetivo é oferecer um checklist prático de acessibilidade digital, voltado para diferentes áreas de projeto, como desenvolvimento web, design, produção de conteúdo e gestão de projetos.
+
+O conteúdo do A11Y Pocket é baseado em diretrizes reconhecidas, como a [WCAG 2.2](https://www.w3.org/TR/WCAG22/), a norma brasileira [NBR 17225](https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-17225-Acessibilidade-Digital.pdf) e o [Guia de Boas Práticas para Acessibilidade Digital](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Além disso, o projeto reúne um compilado de ferramentas de acessibilidade úteis para apoiar a implementação e a avaliação de soluções acessíveis.
+
 
 ## Equipe
 
