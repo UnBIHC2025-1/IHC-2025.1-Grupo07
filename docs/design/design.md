@@ -24,12 +24,11 @@ hide: [navigation]
 
 ## Aparência
 
-<!-- usar esse como base. trocar data-level para correspondente
+<!-- usar esse como base. trocar data-level para correspondente-->
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="A">
   Fazer com que as linhas de texto se ajustem ao viewport.
 </label>
--->
 
 - [ ] <b> Adicionar instrução</b> que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>
 - [ ] <b> Adicionar informação</b> (como gráficos e diagramas) que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>

@@ -2,7 +2,7 @@ hide: [navigation]
 
 # Ferramentas de Acessibilidade
 
-Neste documento, buscamos reunir ferramentas e recursos voltados à acessibilidade digital, com base no Pocket do Aluno Feijó e em dados oficiais do Governo Federal. Os itens que estão em formato de link foram extraídos diretamente do material do Feijó. Ao todo, adicionamos 8 novos recursos além dos que já estavam presentes no documento original: 4 modelos e padrões de acessibilidade do Governo Eletrônico, 2 ferramentas de avaliação, e 2 recursos de inclusão. 
+Neste documento, buscamos reunir ferramentas e recursos voltados à acessibilidade digital, com base no Pocket disponibilizado pela professora e em dados oficiais do Governo Federal. Os itens que estão em formato de link foram extraídos diretamente do material do Pocket disponibilizado pela professora. Ao todo, adicionamos 8 novos recursos além dos que já estavam presentes no documento original: 4 modelos e padrões de acessibilidade do Governo Eletrônico, 2 ferramentas de avaliação, e 2 recursos de inclusão. 
 
 ## Modelos e Padrões de Acessibilidade do Governo Eletrônico
 - [eMag - Modelo de Acessibilidade em Governo Eletrônico](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/eMAGv31.pdf)
