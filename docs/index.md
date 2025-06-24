@@ -9,6 +9,36 @@ O A11Y Pocket é um projeto desenvolvido no contexto da disciplina de Interaçã
 
 O conteúdo do A11Y Pocket é baseado em diretrizes reconhecidas, como a [WCAG 2.2](https://www.w3.org/TR/WCAG22/), a norma brasileira [NBR 17225](https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-17225-Acessibilidade-Digital.pdf) e o [Guia de Boas Práticas para Acessibilidade Digital](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Além disso, o projeto reúne um compilado de ferramentas de acessibilidade úteis para apoiar a implementação e a avaliação de soluções acessíveis.
 
+## Como usar o A11Y Pocket
+
+O A11Y Pocket foi pensado para ser uma ferramenta prática e intuitiva. Ele está dividido em quatro abas principais: **Desenvolvimento Web**, **Design**, **Gestão de Projetos** e **Geração de Conteúdo**. Cada aba contém uma lista de verificação (checklist) com itens relacionados à acessibilidade digital.
+
+Para utilizar corretamente o pocket, siga as orientações abaixo:
+
+- **Marque o check (✔️)** ao lado de cada item conforme ele for sendo atendido no seu projeto.
+- Revise todos os itens para garantir que nenhuma diretriz foi esquecida.
+
+### Gráficos de Conformidade
+
+A ferramenta também gera gráficos que ajudam a visualizar o progresso da acessibilidade no seu projeto.
+
+#### Desenvolvimento Web e Design
+
+Nas abas **Desenvolvimento Web** e **Design**, os itens estão organizados por níveis de conformidade da [WCAG 2.2](https://www.w3.org/TR/WCAG22/): 
+
+- **Nível A**
+- **Nível AA**
+- **Nível AAA**
+
+Para cada um desses níveis, será gerado um gráfico separado, indicando a porcentagem de itens que foram atendidos. Isso permite entender melhor o nível de acessibilidade alcançado em cada camada de conformidade.
+
+#### Gestão de Projetos e Geração de Conteúdo
+
+Já nas abas **Gestão de Projetos** e **Geração de Conteúdo**, os itens não seguem níveis específicos de conformidade. Por isso, será gerado apenas um gráfico por aba, indicando o percentual total de itens atendidos.
+
+Esses gráficos facilitam o acompanhamento do progresso da acessibilidade ao longo do desenvolvimento, auxiliando na tomada de decisões e priorização de melhorias.
+
+
 
 ## Equipe
 
