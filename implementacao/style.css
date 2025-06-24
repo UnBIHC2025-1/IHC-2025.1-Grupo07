@@ -86,6 +86,11 @@ h3 {
   text-decoration: underline;
 }
 
+body.using-keyboard .nav-links a:focus-visible {
+  background-color: #1e4f1e;
+  color: white;
+}
+
 .logo {
   display: flex;
   align-items: center;
