@@ -29,15 +29,9 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
-  margin-top: 2rem;
-  font-weight: 550;
-}
-
-h4 {
   font-size: 1.8rem;
-  margin-top: 1rem;
-  font-weight: 500;
+  margin-top: 1.5rem;
+  font-weight: 550;
 }
 
 p {
@@ -53,7 +47,7 @@ p {
   height: 1px;
   overflow: hidden;
 
-  background-color: hsl(0, 0%, 0%);
+  background-color: #000000;
   font-size: 2rem;
   color: #ffffff;
   font-weight: bold;
@@ -173,6 +167,45 @@ body.using-keyboard .nav-links a:focus-visible {
   margin-top: 0px;
 }
 
+.menu-plantas ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px; 
+}
+
+.menu-plantas a {
+  display: block;
+  padding: 14px 10px;
+  background-color: transparent; 
+  color: #222;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid #e0e0e0;
+  transition: all 0.2s ease-in-out;
+  font-size: 14pt;
+}
+
+.menu-plantas a:hover,
+.menu-plantas a:focus {
+  color: black;
+  background-color: #f9f9f9; 
+  border-bottom-color: #2b6e2f; 
+  outline: none; 
+}
+
+.menu-plantas a::before {
+  content: "🌿 ";
+  color: #1e4f1e;
+}
+
+body.using-keyboard .menu-plantas a:focus-visible {
+  background-color: #000000;
+  color: white;
+}
+
 main {
   max-width: 980px;
   margin: auto;
@@ -213,6 +246,7 @@ input, textarea, button {
   font-size: 1em;
   border: 1px solid #ccc;
   border-radius: 5px;
+  resize: none;
 }
 
 input:focus,
