@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
             plugins: {
                 title: {
                     display: true,
-                    text: `Nível ${nivel} (${marcados}/${totais})`
+                    text: `(${marcados}/${totais})`
                 },
                 legend: {
                     display: false
