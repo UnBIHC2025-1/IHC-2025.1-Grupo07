@@ -1,7 +1,7 @@
 # A11Y
 
 <div align="center">
-<img src="docs/imagens/logoGithub.png" alt="Logo do A11Y" style="width: 100px">
+<img src="docs/imagens/logoGithub.png" alt="Logo do A11Y" style="width: 300px">
 </div>
 
 O **A11Y** é um projeto desenvolvido durante a disciplina de **Interação Humano-Computador**, ministrada pela professora **Rejane Maria da Costa Figueiredo** na **Universidade de Brasília (UnB)**, ao decorrer do semestre **2025.1**.
