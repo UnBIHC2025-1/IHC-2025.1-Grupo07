@@ -2,20 +2,26 @@ hide: [navigation]
 
 # Design
 
-"Existe uma lenda de que a acessibilidade torna um sítio web muito simples ou feio. Não é verdade: um sítio web bem estruturado pode ser bonito e criativo. É possível, inclusive, criar apresentações visuais diferentes para a mesma estrutura HTML de um sítio web com o uso de CSS e atender a diferentes necessidades". Dessa forma, nessa seção encontra-se checklist que garantam a acessibilidade no design.
+Esta seção apresenta boas práticas e critérios fundamentais para garantir a acessibilidade no design visual e de interface de produtos digitais. Ela se destina a profissionais de UX, UI, designers gráficos e equipes responsáveis pela criação visual de sites, sistemas e aplicativos.
 
-<h3>Progresso WCAG</h3>
+
+!!! info "Por que é importante?"
+    Decisões de design impactam diretamente a capacidade das pessoas de perceber, compreender e interagir com os conteúdos. Aspectos como contraste, cores, tipografia, espaçamento, responsividade, organização da informação e controle de animações são essenciais para atender a uma ampla diversidade de usuários, incluindo pessoas com deficiências visuais, cognitivas, motoras e neuro divergentes.
+
+
+
+<h2>Progresso WCAG</h2>
 <div class="progress-sidebar" style="display: flex; flex-direction: row;">
     <div>
-        <h4>Nível A</h4>
+        <h3>Nível A</h3>
         <canvas id="graficoA" width="200" height="200" style="width: 200px; height: 200px;"></canvas>
     </div>
     <div>
-        <h4>Nível AA</h4>
+        <h3>Nível AA</h3>
         <canvas id="graficoAA" width="200" height="200" style="width: 200px; height: 200px;"></canvas>
     </div>
     <div>
-        <h4>Nível AAA</h4>
+        <h3>Nível AAA</h3>
         <canvas id="graficoAAA" width="200" height="200" style="width: 200px; height: 200px;"></canvas>
     </div>
 </div>
@@ -24,42 +30,131 @@ hide: [navigation]
 
 ## Aparência
 
-<!-- usar esse como base. trocar data-level para correspondente-->
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="A">
-  Fazer com que as linhas de texto se ajustem ao viewport.
+  <b>Além das cores, há recursos auxiliares como meio de transmitir informaçã.</b> <a href="#1">[1]</a> [UK]
 </label>
 
-- [ ] <b> Adicionar instrução</b> que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>
-- [ ] <b> Adicionar informação</b> (como gráficos e diagramas) que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>
-- [ ] <b> Tamanho do texto ajustável</b> para permitir ampliação. <a id="TEC2" href="#RP2">[2]</a>
-- [ ] <b> Descrever os controles</b> pelo nome, não apenas pela aparência ou localização. <a id="TEC3"href="#RP3">[3]</a>
-- [ ] <b> Garantir que dicas visuais</b> significativas atinjam 3:1 em relação ao fundo. <a id="TEC4" href="#RP4">[4]</a>
-- [ ] <b> Fazer com que as linhas</b> de texto se ajustem ao viewport. <a id="TEC5"href="#RP5">[5]</a>
-- [ ] Oferece uma <b> opção de alto contraste </b> (dark-mode) de suas páginas web e aumento de fontes.
-- [ ] Parágrafos com no <b> máximo 80 caracteres por linha </b>.
-- [ ] <b> Evita </b> o uso de <b> textos longos em caixa alta ou condensados </b>.
-- [ ] Evita o alinhamento justificado.
-- [ ] <b> Fontes são fluidas </b> e de fácil entendimento.
-- [ ] Toma o devido cuidado com <b>``` display:none ``` e ``` visibility:hidden ``` para os recursos de tecnologia assistiva</b>
-- [ ] Preferir <b> botões com texto e ícone </b>. E botões apenas com ícones tem o nome acessível.
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+  Adicionar informações (como gráficos e diagramas) que não dependam exclusivamente da cor. <a href="#1">[1]</a>
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AA">
+  Garantir que dicas visuais significativas atinjam 3:1 em relação ao fundo.<a href="#1">[1]</a>
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AA">
+  Oferece uma opção de alto contraste das páginas web. <a href="#2">[2]</a>
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AA">
+  <b>O site pode ser rotacionado  para qualquer orientação.</b> <a href="#3">[3]</a> [NBR 5.10.3]
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AA">
+  <b>O conteúdo permanece funcional e sem perda de informação quando visualizado em uma área de 320px de largura ou 256px de altura, a menos que um leiaute bidimensional seja essencial.</b> <a href="#4">[4]</a> [NBR 5.10.4]
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AA">
+  <b>A interface é responsiva e adaptável a diferentes tamanhos de tela.</b> [NBR 5.10.4]<a href="#4">[4]</a>
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AAA">
+    Áreas clicáveis com no mínimo 44px (pixels) de altura e 44px de largura [NBR 5.8.6] (WCAG 2.5.8 (AA), 2.5.5 (AAA))
+</label>
+
+## Textos
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AAA">
+    <b>Todos os blocos de texto têm espaçamento entre as linhas (entrelinhas) de pelo menos 1,5 vez o tamanho da fonte [NBR 5.1.12] (1.4.12 (AA) 1.4.8 (AAA))</b>
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AAA">
+    <b>Todos os parágrafos têm espaçamento entre si de pelo menos 2 vezes o tamanho da fonte; [NBR 5.12.2] (1.4.12 (AA) 1.4.8 (AAA))</b>
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AA">
+    <b>Todos os blocos de texto têm espaçamento entre as palavras de pelo menos 0,16 vez o tamanho da fonte[NBR 5.12.4] (1.4.12 (AA))</b>
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AAA">
+    <b>Não há perda de conteúdo ou funcionalidade quando o texto é redimensionado sem o uso de recursos de tecnologia assistiva em até 200 %[NBR] (5.12.7 Texto redimensionado 1.4.4 (AA) 1.4.8 (AAA))</b>
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AAA">
+    <b>Textos estão alinhados conforme o sentido de leitura, a menos que o alinhamento seja essencial para a compreensão [UK, NBR 5.12.5] (1.4.8 (AAA))</b>
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AAA">
+    <b>Blocos de texto têm no máximo 80 caracteres por linha.</b>[NBR 5.12.6][UK] <a href="#4">[4]</a>
+</label>
+
 
 ## Animação
-- [ ] <b> Evitar conteúdo que pisque</b>, ou mantenha-o abaixo dos limites. <a id="TEC6" href="#RP6">[6]</a>
-- [ ] <b> Permitir que os usuários controlem as alterações de conteúdo</b> que ocorrem em paralelo com outro conteúdo. <a id="TEC7" href="#RP7">[7]</a>
-- [ ] <b> Toda a animação</b> deve obedecer à ```prefers-reduced-motion``` consulta de mídia. <a id="TEC8" href="#RP8">[8]</a>
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+    <b>Todos os movimentos de tela piscam abaixo de 3 vezes por segundo? [6] [UK] (2.3.1 (A))</b>
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+    Permitir que os usuários controlem as alterações de conteúdo que ocorrem em paralelo com outro conteúdo. (2.2.2 (A))
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AAA">
+    Toda a animação deve obedecer à prefers-reduced-motion consulta de mídia. [8] (2.2.3 (AAA))
+</label>
 
 ## Contraste de Cores
-- [ ] <b> Verificar o contraste</b> de  todo texto tamanho normal. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Verificar o contraste</b> de todo texto tamanho grande. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Verificar o contraste</b> de todos os ícones. <a id="TEC4" href="#RP4">[4]</a>
-- [ ] <b> Verificar o contraste</b> das bordas dos elementos de entrada (entrada de texto, botões de opção, caixas de seleção, etc.). <a id="#RP4" href="#RP4">[4]</a>
-- [ ] <b> Verificar o texto</b> que se sobrepõe a imagens ou vídeos. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Verificar ```::selection``` cores</b> personalizadas. <a id="TEC9" href="#RP9">[9]</a>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AA">
+    Verificar o contraste de todos os ícones. (1.4.11 (AA))
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AA">
+    <b>O texto (incluindo imagens de texto) possui contraste suficiente com o fundo de 4,5:1 para textos normais.</b> <a href="#2">[2]</a> [NBR 5.11.3]
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AA">
+    <b>O texto (incluindo imagens de texto) possui contraste suficiente com o fundo de 3:1 para textos grandes.</b> <a href="#2">[2]</a> [NBR 5.11.3] 
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="AAA">
+    <b>O indicador de foco visível dos elementos focáveis tem relação de contraste de pelo menos 3:1 com o fundo e entre os estados em foco e sem foco. [NBR] (5.11.6 Contraste para indicador de foco visível) (2.4.13 (AAA))
+    </b>
+</label>
 
 ## Referências Bibliograficas
 
-> <a id="RP1" href="#TEC1">1.</a> WCAG 2.2 Understanding Docs. SC 1.4.1 Use of Color (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html). Acesso em: 9 Mai. 2024.
+> <a id="1" href="">1.</a> Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2. CS 1.4.1 Uso de Cores (Nível A). Disponível em: [https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#use-of-color](https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#use-of-color). Acesso em: 23 Jun. 2025.
+
+> <a id="2" href="">2.</a> Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2. CS 1.4.3 Contraste (Mínimo) (Nível AA). Disponível em: [https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#contrast-minimum](https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#contrast-minimum). Acesso em: 23 Jun. 2025.
+
+> <a id="3" href="">3.</a> Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2. CS 1.3.4 Orientação (Nível AA). Disponível em: [https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#orientation](https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#orientation). Acesso em: 23 Jun. 2025.
+
+> <a id="4" href="">4.</a> Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2. CS 1.4.10 Realinhar (Nível AA). Disponível em: [https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#reflow](https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#reflow). Acesso em: 23 Jun. 2025.
+
+
+
+
+
 
 > <a id="RP2" href="#TEC2">2.</a> WCAG 2.2 Understanding Docs. SC 1.4.4 Resize Text (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html). Acesso em: 9 Mai. 2024.
 
@@ -67,15 +162,12 @@ hide: [navigation]
 
 > <a id="RP4" href="#TEC4">4.</a> WCAG 2.2 Understanding Docs. SC 1.4.11 Non-text Contrast (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html). Acesso em: 9 Mai. 2024.
 
-> <a id="RP5" href="#TEC5">5.</a> WCAG 2.2 Understanding Docs. SC 1.4.10 Reflow (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/reflow.html](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html). Acesso em: 9 Mai. 2024.
-
 > <a id="RP6" href="#TEC6">6.</a> WCAG 2.2 Understanding Docs. SC 2.3.1 Three Flashes or Below Threshold (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html). Acesso em: 9 Mai. 2024.
 
 > <a id="RP7" href="#TEC7">7.</a> WCAG 2.2.2 Understanding Docs. SC 2.2.2 Pause, Stop, Hide (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html). Acesso em: 9 Mai. 2024.
 
 > <a id="RP8" href="#TEC8">8.</a> WCAG 2.2 Understanding Docs. SC 2.3.3 Animation from Interactions (Level AAA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html). Acesso em: 9 Mai. 2024.
 
-> <a id="RP9" href="#TEC9">9.</a> WCAG 2.2 Understanding Docs. SC 1.4.3 Contrast (Minimum) (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html). Acesso em: 9 Mai. 2024.
 
 ## Bibliografia
 

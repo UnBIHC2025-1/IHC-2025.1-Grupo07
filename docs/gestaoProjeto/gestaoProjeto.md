@@ -4,8 +4,9 @@ hide: [navigation]
 
 Esta seção traz recomendações para incorporar a acessibilidade desde a concepção do projeto, passando pelo planejamento, pela definição de requisitos e pela gestão de equipes, recursos e cronogramas. É voltada a gestores, líderes de projeto, product owners, analistas de requisitos, scrum masters e *stakeholders*.
 
-\!\!\! info “Por que é importante?”  
-	A acessibilidade não deve ser tratada como uma etapa isolada ou um requisito opcional. Incorporá-la desde o início do ciclo de desenvolvimento reduz custos, evita retrabalho, garante conformidade legal e amplia o alcance e a qualidade do produto. Além disso, promove inclusão social e melhora a experiência para todos os usuários, não apenas para pessoas com deficiência.
+!!! info "Por que é importante?"
+    A acessibilidade não deve ser tratada como uma etapa isolada ou um requisito opcional. Incorporá-la desde o início do ciclo de desenvolvimento reduz custos, evita retrabalho, garante conformidade legal e amplia o alcance e a qualidade do produto. Além disso, promove inclusão social e melhora a experiência para todos os usuários, não apenas para pessoas com deficiência.
+
 
 
 <!-- <h3>Progresso WCAG</h3>
