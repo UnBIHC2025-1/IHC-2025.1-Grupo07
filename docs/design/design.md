@@ -1,8 +1,35 @@
+hide: [navigation]
+
 # Design
 
 "Existe uma lenda de que a acessibilidade torna um sítio web muito simples ou feio. Não é verdade: um sítio web bem estruturado pode ser bonito e criativo. É possível, inclusive, criar apresentações visuais diferentes para a mesma estrutura HTML de um sítio web com o uso de CSS e atender a diferentes necessidades". Dessa forma, nessa seção encontra-se checklist que garantam a acessibilidade no design.
 
+<h3>Progresso WCAG</h3>
+<div class="progress-sidebar" style="display: flex; flex-direction: row;">
+    <div>
+        <h4>Nível A</h4>
+        <canvas id="graficoA" width="200" height="200" style="width: 200px; height: 200px;"></canvas>
+    </div>
+    <div>
+        <h4>Nível AA</h4>
+        <canvas id="graficoAA" width="200" height="200" style="width: 200px; height: 200px;"></canvas>
+    </div>
+    <div>
+        <h4>Nível AAA</h4>
+        <canvas id="graficoAAA" width="200" height="200" style="width: 200px; height: 200px;"></canvas>
+    </div>
+</div>
+
+
+
 ## Aparência
+
+<!-- usar esse como base. trocar data-level para correspondente-->
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+  Fazer com que as linhas de texto se ajustem ao viewport.
+</label>
+
 - [ ] <b> Adicionar instrução</b> que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>
 - [ ] <b> Adicionar informação</b> (como gráficos e diagramas) que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>
 - [ ] <b> Tamanho do texto ajustável</b> para permitir ampliação. <a id="TEC2" href="#RP2">[2]</a>

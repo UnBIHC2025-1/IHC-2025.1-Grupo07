@@ -1,7 +1,13 @@
+hide: [navigation]
 # Desenvolvimento
 
 "Nessa fase, é importante garantir que a equipe de desenvolvimento saiba como implementar acessibilidade, verificá-la e usar as ferramentas disponíveis no mercado para
 testes e padronizações. Também é importante que a equipe saiba como as pessoas com deficiência usam os sítios web e aplicativos". Nesse caso, foram incluídas técnicas relacionadas ao desenvolvimento e também formas de verificar.
+
+!!! info "Por que isso é importante?"
+    Grande parte das barreiras de acessibilidade são causadas por decisões técnicas na codificação. Implementar corretamente semântica, foco de teclado, descrição de elementos, controle de mídia e feedback visual é essencial para que pessoas com deficiência possam acessar e utilizar a tecnologia de forma plena.
+
+
 
 ## Imagens
 - [x] <b> Adicionar ``` alt ``` </b> para imagens, botões-imagem, gráficos e imagens de mapas com pontos de acesso. <a id="TEC1" href="#RP1">[1]</a>
