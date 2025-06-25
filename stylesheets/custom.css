@@ -22,7 +22,7 @@
 }
 
 .criterio input[type="checkbox"]:hover {
-  border-color: var(--md-accent-fg-color);
+  border-color: var(--md-primary-fg-color);
   background-color: var(--md-accent-fg-color);
 }
 
@@ -32,7 +32,7 @@
 }
 
 .criterio input[type="checkbox"]:checked {
-  background-color: var(--md-accent-fg-color);
+  background-color: var(--md-primary-fg-color);
   /* border-color: var(--md-accent-fg-color); */
 }
 
@@ -50,3 +50,4 @@
 .criterio input[type="checkbox"]:checked::before {
   transform: scale(1);
 }
+
