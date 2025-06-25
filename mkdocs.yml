@@ -25,8 +25,8 @@ nav:
 
 theme:
   name: material
-  logo: imagens/logo-verificaaa.png
-  favicon: imagens/logo-verificaaa.png
+  logo: imagens/logo-header.png
+  favicon: imagens/favicon-a11y.png
   language: pt
   features:
     - navigation.tabs              
@@ -37,7 +37,7 @@ theme:
     - navigation.expand            
     - search.suggest               
     - search.highlight             
-    - search.share                 
+    # - search.share                 
     - navigation.instant: false
 
   palette:
