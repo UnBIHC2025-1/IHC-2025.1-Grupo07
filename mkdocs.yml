@@ -31,13 +31,14 @@ theme:
   features:
     - navigation.tabs              
     - navigation.tabs.sticky       
-    - navigation.instant          
-    - navigation.instant.progress   
+    # - navigation.instant          
+    # - navigation.instant.progress   
     - navigation.top               
     - navigation.expand            
     - search.suggest               
     - search.highlight             
     - search.share                 
+    - navigation.instant: false
 
   palette:
     - scheme: default
