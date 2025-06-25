@@ -1,55 +1,148 @@
 hide: [navigation]
 # Geração de conteúdo
 
-"Para produzir conteúdo digital acessível, a primeira etapa é compreender que tudo o que comunicamos impacta as pessoas; por isso, é fundamental começar pela forma como abordamos nosso público e criar a cultura e o hábito de acessibilidade digital em nossas equipes". Nesse sentido, nesta seção se apresentam boas práticas em formato de checklist para garantir acessibilidade na geração de conteúdo.
+Esta seção aborda práticas para a criação de conteúdos digitais acessíveis, incluindo textos, imagens, descrições, áudios, vídeos, podcasts, postagens em redes sociais e outros formatos de comunicação digital. É direcionada a profissionais de redação, comunicação, marketing, mídias sociais, jornalismo, produção de conteúdo e UX writing.
+
+!!! info "Por que é importante?"  
+    A acessibilidade não se limita à interface e ao código. A forma como a informação é apresentada impacta diretamente na compreensão e no acesso. Usar linguagem simples, evitar jargões, descrever imagens, estruturar textos de forma clara e oferecer alternativas acessíveis para mídias são ações que tornam a comunicação inclusiva para pessoas com deficiência visual, auditiva, cognitiva, neuro divergente ou baixa alfabetização.
+
+
 
 ## Termos
-- [ ] Sempre utilize o termo "pessoas com deficiência" (PCD) e depois complemente: visual, física, intelectual, múltipla, pessoa  surda, pessoa cega, usuária de cadeira de rodas (cadeirante), tetraplégica, paraplégica, pessoa com nanismo, com baixa visão, pessoa autista, disléxica, neurodiversa ou neurodivergente.  
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+Sempre utilize o termo "pessoas com deficiência" (PCD) e depois complemente: visual, física, intelectual, múltipla, pessoa  surda, pessoa cega, usuária de cadeira de rodas (cadeirante), tetraplégica, paraplégica, pessoa com nanismo, com baixa visão, pessoa autista, disléxica, neurodiversa ou neurodivergente. <a href="#1">[1]</a>
+</label>
 
 ## Textos
-- [ ] Usar textos descomplicados e objetivos. 
-- [ ] Usar de palavras conhecidas. 
-- [ ] Evitar figuras de linguagem. e frases com "senso de ugência" 
-- [ ] Usar pontuação adequada. 
-- [ ] Evitar frases extensas (ideal é ter de 15 a 20 palavras). 
-- [ ] Usar preferencialmente a ordem direta nas orações. 
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+<b>O conteúdo é claro, direto, livre de linguagem ambígua <a href="#1">[1]</a></b>  
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+<b>Textos possuem uma média de 15 a 20 palavras<a href="#1">[1]</a></b>  
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+<b>O texto utiliza, preferencialmente, ordem direta nas orações.<a href="#1">[1]</a></b>  
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+<b>Textos com significado especial (ênfase, citação, abreviação ou similares) possuem marcação semântica adequada e são usados corretamente para transmitir seus respectivos propósitos. <a href="#NBR">[NBR 5.12.8, 5.12.9]</a>  <a href="#7">[7]</a></b>
+</label>
 
 ## Descrição de imagens
-- [ ] Identificar o tipo de imagem e personagem (foto, ilustração, mapa, gráfico... e " o que / quem"). 
-- [ ] Localizar (onde). 
-- [ ] Descrever a ação (o que faz, como faz). 
-- [ ] Referenciar. 
 
-## Descrição de imagens complexas
-- [ ] Posicionar gráfico, quadrinhos, quadros e outras imagens compexas em um local separado. 
-- [ ] Descrição sucinta no texto alternativo. 
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+Identificar o tipo e o conteúdo da imagem.<a href="#1">[1]</a>  
+</label>
 
-## Ícones
-- [ ] Adicionar iconografia. 
-- [ ] Adicionar ícone e texto. 
-- [ ] Adicionar texto alternativo para ícones clicáveis. 
-- [ ] Descrever no texto alternativo, quando necessário usá-lo, a ação da pessoa usuária e para onde será direcionada. 
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+Descrever a ação representada na imagem, se houver.<a href="#1">[1]</a>  
+</label>
 
-## Mídias de vídeo
-- [ ] Adicionar descritivo curto para vídeos. 
-- [ ] Optar pro legendas: Open Caption e Closed Caption para vídeos. 
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+Separar imagens complexas do conteúdo principal.<a href="#1">[1]</a>  
+</label>
 
-## Autodescrição
-- [ ] Adionar autodescrição no roteiro dos vídeos 
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+Usar texto alternativo sucinto e relevante.<a href="#1">[1]</a>  
+</label>
+      
 
-# Podcasts
-- [ ] Transcrever o conteúdo do episódio. 
-- [ ] Incluir além da partes faladas, como sons de fundos, efeitos sonoros, quem está falando etc. 
-- [ ] Inserir um avatar na página falada para a interpretção do texto transcrito para Libras. 
-- [ ] Considerar também formato de vídeo.
+## Áudio e vídeo
+
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+Deve haver um descritivo curto para vídeos.<a href="#1">[1]</a>  
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+Optar por legendas: Open Caption e Closed Caption para vídeos. <a href="#1">[1]</a>  
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+<b>Vídeos possuem audiodescrição ou garantem que o áudio por si só seja suficiente para a compreensão do conteúdo visual.<a href="#NBR">[NBR 5.14.4]</a>  <a href="#2">[2]</a> <a href="#4">[4]</a> <a href="#6">[6]</a></b>  
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+<b>Vídeos com áudio possuem legendas descritivas ou são uma alternativa claramente identificada para um conteúdo em texto equivalente. <a href="#NBR">[NBR 5.14.2]</a> <a href="#3">[3]</a></b>  
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+<b>Todo conteúdo em áudio ou áudio e vídeo ao vivo tem legendas disponíveis.<a href="#NBR">[NBR 5.14.9]</a>  <a href="#5">[5]</a></b>  
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+<b>O site oferece conteúdo em múltiplos formatos (texto, vídeo, áudio)<a href="#1">[1]</a></b>
+</label>
+
+## Podcasts
+
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+O conteúdo do episódio possui transcrição.<a href="#1">[1]</a>  
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+Incluir além das partes faladas, como sons de fundos, efeitos sonoros, quem está falando etc.<a href="#1">[1]</a>  
+</label>
+
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+Inserir um avatar na página falada para a interpretação do texto transcrito para Libras.<a href="#1">[1]</a>
+</label>
 
 ## Hashtags e Emojis
-- [ ] Em hashtags, utilize a primeira letra de cada palavra em maiúsculas para que leitores possam identificar palavras corretamente. 
-- [ ] Não abusar de emojis, pois nem sempre sua descrição é suficiente para um bom entendimento. 
 
-## Hiperlinks
-- [ ] Descrição de links e botões devem ser compreensíveis de maneira maneira isolada. 
 
-## Bibliografia
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+Em hashtags, é usada a primeira letra de cada palavra em maiúsculas para que leitores possam identificar palavras corretamente.<a href="#1">[1]</a>  
+</label>
 
-> <a id="RP1" href="#TEC1"></a> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 9 Mai. 2024.
+<label class="criterio">
+  <input type="checkbox" class="criterio" data-level="A">
+Não são utilizados muitos emojis, pois nem sempre sua descrição é suficiente para um bom entendimento.<a href="#1">[1]</a>  
+</label>
+      
+      
+
+## Referência Bibliográfica
+
+> <a id="1" href="">1.</a> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. **Guia de Boas Práticas para Acessibilidade Digital**. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 25 Jun. 2025.
+
+> <a id="2" href="">2.</a> Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2. CS 1.2.1 Apenas Áudio e Apenas Vídeo (Pré-gravado) (Nível A). Disponível em: [https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#audio-only-and-video-only-prerecorded](https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#audio-only-and-video-only-prerecordedt). Acesso em: 23 Jun. 2025.
+
+> <a id="3" href="">3.</a> Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2. CS 1.2.2 Legendas (Pré-gravadas) (Nível A). Disponível em: [https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#captions-prerecorded](https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#captions-prerecorded). Acesso em: 23 Jun. 2025.
+
+> <a id="4" href="">4.</a> Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2. CS 1.2.3 Audiodescrição ou Mídia Alternativa (Pré-gravada) (Nível A). Disponível em: [https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#audio-description-or-media-alternative-prerecorded](https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#audio-description-or-media-alternative-prerecorded). Acesso em: 23 Jun. 2025.
+
+> <a id="5" href="">5.</a> Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2. CS 1.2.4 Legendas (Ao Vivo) (Nível AA). Disponível em: [https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#captions-live](https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#captions-live). Acesso em: 23 Jun. 2025.
+
+> <a id="6" href="">6.</a> Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2. CS 1.2.5 Audiodescrição (Pré-gravada) (Nível AA). Disponível em: [https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#audio-description-prerecorded](https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#audio-description-prerecorded). Acesso em: 23 Jun. 2025.
+
+> <a id="7" href="">7.</a> Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2. CS 1.3.1 Informações e Relações (Nível AA). Disponível em: [https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#info-and-relationships](https://www.w3c.br/traducoes/wcag/wcag22-pt-BR/#info-and-relationships). Acesso em: 23 Jun. 2025.
+
+> <a id="NBR" href=""> </a> ABNT NBR 17225:2025, Acessibilidade em conteúdo e aplicações web – Requisitos. Disponível em: [https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-17225-Acessibilidade-Digital.pdf](https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-17225-Acessibilidade-Digital.pdf) Acesso em: 23 Jun. 2025
+
+
+
