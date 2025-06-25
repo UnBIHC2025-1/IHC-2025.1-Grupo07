@@ -6,56 +6,63 @@ Esta seção aborda práticas para a criação de conteúdos digitais acessívei
 !!! info "Por que é importante?"  
     A acessibilidade não se limita à interface e ao código. A forma como a informação é apresentada impacta diretamente na compreensão e no acesso. Usar linguagem simples, evitar jargões, descrever imagens, estruturar textos de forma clara e oferecer alternativas acessíveis para mídias são ações que tornam a comunicação inclusiva para pessoas com deficiência visual, auditiva, cognitiva, neuro divergente ou baixa alfabetização.
 
+## Progresso do checklist
+
+<div>
+    <h3>Total preenchido</h3>
+    <canvas id="graficoC" width="200" height="200" style="width: 200px; height: 200px;"></canvas>
+</div>
+
 
 
 ## Termos
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="C">
 Sempre utilize o termo "pessoas com deficiência" (PCD) e depois complemente: visual, física, intelectual, múltipla, pessoa  surda, pessoa cega, usuária de cadeira de rodas (cadeirante), tetraplégica, paraplégica, pessoa com nanismo, com baixa visão, pessoa autista, disléxica, neurodiversa ou neurodivergente. <a href="#1">[1]</a>
 </label>
 
 ## Textos
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
-<b>O conteúdo é claro, direto, livre de linguagem ambígua <a href="#1">[1]</a></b>  
+  <input type="checkbox" class="criterio" data-level="C">
+<b>O conteúdo é claro, direto, livre de linguagem ambígua</b> <a href="#1">[1]</a> 
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
-<b>Textos possuem uma média de 15 a 20 palavras<a href="#1">[1]</a></b>  
+  <input type="checkbox" class="criterio" data-level="C">
+<b>Textos possuem uma média de 15 a 20 palavras</b> <a href="#1">[1]</a>
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
-<b>O texto utiliza, preferencialmente, ordem direta nas orações.<a href="#1">[1]</a></b>  
+  <input type="checkbox" class="criterio" data-level="C">
+<b>O texto utiliza, preferencialmente, ordem direta nas orações.</b> <a href="#1">[1]</a>  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
-<b>Textos com significado especial (ênfase, citação, abreviação ou similares) possuem marcação semântica adequada e são usados corretamente para transmitir seus respectivos propósitos. <a href="#NBR">[NBR 5.12.8, 5.12.9]</a>  <a href="#7">[7]</a></b>
+  <input type="checkbox" class="criterio" data-level="C">
+<b>Textos com significado especial (ênfase, citação, abreviação ou similares) possuem marcação semântica adequada e são usados corretamente para transmitir seus respectivos propósitos.</b> <a href="#NBR">[NBR 5.12.8, 5.12.9]</a> <a href="#7">[7]</a>
 </label>
 
 ## Descrição de imagens
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="C">
 Identificar o tipo e o conteúdo da imagem.<a href="#1">[1]</a>  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="C">
 Descrever a ação representada na imagem, se houver.<a href="#1">[1]</a>  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="C">
 Separar imagens complexas do conteúdo principal.<a href="#1">[1]</a>  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="C">
 Usar texto alternativo sucinto e relevante.<a href="#1">[1]</a>  
 </label>
       
@@ -64,50 +71,50 @@ Usar texto alternativo sucinto e relevante.<a href="#1">[1]</a>
 
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="C">
 Deve haver um descritivo curto para vídeos.<a href="#1">[1]</a>  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="C">
 Optar por legendas: Open Caption e Closed Caption para vídeos. <a href="#1">[1]</a>  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
-<b>Vídeos possuem audiodescrição ou garantem que o áudio por si só seja suficiente para a compreensão do conteúdo visual.<a href="#NBR">[NBR 5.14.4]</a>  <a href="#2">[2]</a> <a href="#4">[4]</a> <a href="#6">[6]</a></b>  
+  <input type="checkbox" class="criterio" data-level="C">
+<b>Vídeos possuem audiodescrição ou garantem que o áudio por si só seja suficiente para a compreensão do conteúdo visual.</b> <a href="#NBR">[NBR 5.14.4]</a>  <a href="#2">[2]</a> <a href="#4">[4]</a> <a href="#6">[6]</a>  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
-<b>Vídeos com áudio possuem legendas descritivas ou são uma alternativa claramente identificada para um conteúdo em texto equivalente. <a href="#NBR">[NBR 5.14.2]</a> <a href="#3">[3]</a></b>  
+  <input type="checkbox" class="criterio" data-level="C">
+<b>Vídeos com áudio possuem legendas descritivas ou são uma alternativa claramente identificada para um conteúdo em texto equivalente.</b> <a href="#NBR">[NBR 5.14.2]</a> <a href="#3">[3]</a>  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
-<b>Todo conteúdo em áudio ou áudio e vídeo ao vivo tem legendas disponíveis.<a href="#NBR">[NBR 5.14.9]</a>  <a href="#5">[5]</a></b>  
+  <input type="checkbox" class="criterio" data-level="C">
+<b>Todo conteúdo em áudio ou áudio e vídeo ao vivo tem legendas disponíveis.</b> <a href="#NBR">[NBR 5.14.9]</a>  <a href="#5">[5]</a>  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
-<b>O site oferece conteúdo em múltiplos formatos (texto, vídeo, áudio)<a href="#1">[1]</a></b>
+  <input type="checkbox" class="criterio" data-level="C">
+<b>O site oferece conteúdo em múltiplos formatos (texto, vídeo, áudio)</b> <a href="#1">[1]</a>
 </label>
 
 ## Podcasts
 
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="C">
 O conteúdo do episódio possui transcrição.<a href="#1">[1]</a>  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="C">
 Incluir além das partes faladas, como sons de fundos, efeitos sonoros, quem está falando etc.<a href="#1">[1]</a>  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="C">
 Inserir um avatar na página falada para a interpretação do texto transcrito para Libras.<a href="#1">[1]</a>
 </label>
 
@@ -115,12 +122,12 @@ Inserir um avatar na página falada para a interpretação do texto transcrito p
 
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="C">
 Em hashtags, é usada a primeira letra de cada palavra em maiúsculas para que leitores possam identificar palavras corretamente.<a href="#1">[1]</a>  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="C">
 Não são utilizados muitos emojis, pois nem sempre sua descrição é suficiente para um bom entendimento.<a href="#1">[1]</a>  
 </label>
       

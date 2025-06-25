@@ -8,14 +8,11 @@ Esta seção traz recomendações para incorporar a acessibilidade desde a conce
     A acessibilidade não deve ser tratada como uma etapa isolada ou um requisito opcional. Incorporá-la desde o início do ciclo de desenvolvimento reduz custos, evita retrabalho, garante conformidade legal e amplia o alcance e a qualidade do produto. Além disso, promove inclusão social e melhora a experiência para todos os usuários, não apenas para pessoas com deficiência.
 
 
-
-<!-- <h3>Progresso WCAG</h3>
-<div class="progress-sidebar" style="display: flex; flex-direction: row;">
-    <div>
-        <h4>Nível A</h4>
-        <canvas id="graficoA" width="200" height="200" style="width: 200px; height: 200px;"></canvas>
-    </div>
-</div> -->
+## Progresso do checklist
+<div>
+    <h3>Total preenchido</h3>
+    <canvas id="graficoP" width="200" height="200" style="width: 200px; height: 200px;"></canvas>
+</div>
 
 ## Gestão Técnica
 
@@ -25,49 +22,49 @@ Em seu projeto, foram elaboradas *personas* para...
 
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  <b>Pessoas com Deficiência Visual</b>  (cegueira, baixa visão, daltonismo ou deficiência cromática)
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  <b>Pessoas com Deficiência Física</b>  (fraqueza, tremores, movimentos involuntá rios, paralisia, limitações da sensação, dor que impede movimento, ausênciade membros)  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  <b>Pessoas com Deficiência Auditiva</b>  (surdez, baixa audição, surdocegueira)  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  <b>Pessoas com Deficiência na Fala</b>  (dificuldade para falar, volume insuficiente, gagueira, mudez)  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  <b>Pessoas Neuro Diversas</b>  (dificuldades de diferentes graus para ver, escutar, falar, compreender e interagir socialmente)  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  <b>Pessoas com Múltiplas Deficiências</b>  (combinação de duas ou mais deficiências anteriores)  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  <b>Possíveis limitações decorrentes do envelhecimento</b>  (que podem ser de um ou mais grupos de deficiências)  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  <b>Pessoas com analfabetismo</b>  (analfabetismo digital e funcional níveis 1, 2 e 3)
 </label>
 
 Além disso, outras questões também devem ser atendidas
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  <b>A equipe conhece e aplica as diretrizes do WCAG (mínimo nível A e AA)? <a href="#RP1">[1].</a></b>
 </label>
 
@@ -80,62 +77,62 @@ Sendo assim, existem argumentos que podem facilitar o processo de conscientizaç
 Em seu projeto, a equipe está consciente de...
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  Quantidade de pessoas no mundo com algum tipo de deficiência.  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  Quantidade de pessoas no Brasil com algum tipo de deficiência, segundo IBGE.  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  Natureza da deficiência: congênita, hereditária, adquirida, temporária.  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  Grupos mais comuns de tipos de deficiência.  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  Quanto custa a acessibilidade?  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  Quanto tempo a mais o projeto precisará para implementar acessibilidade?  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  Quantas pessoas com deficiência vão usar meu aplicativo ou acessar meu sítio de Internet?  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  Pessoas cegas compram online?  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  Pessoas tetraplégicas usam smartphone?  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  Legislação: A Convenção sobre os Direitos das Pessoas com Deficiência Comentada.  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  Legislação: PORTARIA Nº 3, DE 7 DE MAIO DE 2007\.  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  Análise de mercado de software de acessibilidade digital.
 </label>
 
@@ -148,17 +145,17 @@ Assim, é de suma importância que se tenha, incluído no plano de projeto, e, d
 Em seu planejamento, há...
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  Atividades bem delineadas, cronogramas e atribuições de responsabilidade relacionadas à acessibilidade?  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  <b>Definição de Recursos (pessoas, softwares, cursos, tarefas)? <a href="#RP1">[1].</a></b>  
 </label>
 
 <label class="criterio">
-  <input type="checkbox" class="criterio" data-level="A">
+  <input type="checkbox" class="criterio" data-level="P">
  <b>O planejamento considera as especificidades de cada tipo de deficiência? <a href="#RP1">[1].</a></b>
 </label>
 

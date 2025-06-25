@@ -9,8 +9,7 @@ Esta seção apresenta boas práticas e critérios fundamentais para garantir a 
     Decisões de design impactam diretamente a capacidade das pessoas de perceber, compreender e interagir com os conteúdos. Aspectos como contraste, cores, tipografia, espaçamento, responsividade, organização da informação e controle de animações são essenciais para atender a uma ampla diversidade de usuários, incluindo pessoas com deficiências visuais, cognitivas, motoras e neuro divergentes.
 
 
-
-<h2>Progresso WCAG</h2>
+## Progresso WCAG
 <div class="progress-sidebar" style="display: flex; flex-direction: row;">
     <div>
         <h3>Nível A</h3>
@@ -32,113 +31,113 @@ Esta seção apresenta boas práticas e critérios fundamentais para garantir a 
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="A">
-  <b>Além das cores, há recursos auxiliares como meio de transmitir informação.</b> <a href="#1">[1]</a> <a href="#16">[16]</a>
+  <b>Além das cores, há recursos auxiliares como meio de transmitir informação (A).</b> <a href="#1">[1]</a> <a href="#16">[16]</a>
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="A">
-  Adicionar informações (como gráficos e diagramas) que não dependam exclusivamente da cor. <a href="#1">[1]</a>
+  Adicionar informações (como gráficos e diagramas) que não dependam exclusivamente da cor (A). <a href="#1">[1]</a>
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AA">
-  Garantir que dicas visuais significativas atinjam 3:1 em relação ao fundo.<a href="#1">[1]</a>
+  Garantir que dicas visuais significativas atinjam 3:1 em relação ao fundo (AA).<a href="#1">[1]</a>
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AA">
-  Oferece uma opção de alto contraste das páginas web. <a href="#2">[2]</a>
+  Oferece uma opção de alto contraste das páginas web (AA). <a href="#2">[2]</a>
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AA">
-  <b>O site pode ser rotacionado  para qualquer orientação.</b> <a href="#15">[NBR 5.10.3]</a> <a href="#3">[3]</a> 
+  <b>O site pode ser rotacionado  para qualquer orientação (AA).</b> <a href="#15">[NBR 5.10.3]</a> <a href="#3">[3]</a> 
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AA">
-  <b>O conteúdo permanece funcional e sem perda de informação quando visualizado em uma área de 320px de largura ou 256px de altura, a menos que um leiaute bidimensional seja essencial.</b> <a href="#15">[NBR 5.10.4]</a> <a href="#4">[4]</a> 
+  <b>O conteúdo permanece funcional e sem perda de informação quando visualizado em uma área de 320px de largura ou 256px de altura, a menos que um leiaute bidimensional seja essencial (AA).</b> <a href="#15">[NBR 5.10.4]</a> <a href="#4">[4]</a> 
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AA">
-  <b>A interface é responsiva e adaptável a diferentes tamanhos de tela.</b> <a href="#15">[NBR 5.10.4]</a> <a href="#4">[4]</a>
+  <b>A interface é responsiva e adaptável a diferentes tamanhos de tela (AA).</b> <a href="#15">[NBR 5.10.4]</a> <a href="#4">[4]</a>
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AAA">
-    Áreas clicáveis com no mínimo 44px (pixels) de altura e 44px de largura. <a href="#15">[NBR 5.8.6]</a>  <a href="#5">[5]</a> <a href="#6">[6]</a> 
+    Áreas clicáveis com no mínimo 44px (pixels) de altura e 44px de largura (AAA). <a href="#15">[NBR 5.8.6]</a>  <a href="#5">[5]</a> <a href="#6">[6]</a> 
 </label>
 
 ## Textos
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AAA">
-    <b>Todos os blocos de texto têm espaçamento entre as linhas (entrelinhas) de pelo menos 1,5 vez o tamanho da fonte.</b> <a href="#15">[NBR 5.1.12]</a> <a href="#7">[7]</a> <a href="#8">[8]</a> 
+    <b>Todos os blocos de texto têm espaçamento entre as linhas (entrelinhas) de pelo menos 1,5 vez o tamanho da fonte (AAA).</b> <a href="#15">[NBR 5.1.12]</a> <a href="#7">[7]</a> <a href="#8">[8]</a> 
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AAA">
-    <b>Todos os parágrafos têm espaçamento entre si de pelo menos 2 vezes o tamanho da fonte.</b> <a href="#15">[NBR 5.12.2]</a> <a href="#7">[7]</a> <a href="#8">[8]</a> 
+    <b>Todos os parágrafos têm espaçamento entre si de pelo menos 2 vezes o tamanho da fonte (AAA).</b> <a href="#15">[NBR 5.12.2]</a> <a href="#7">[7]</a> <a href="#8">[8]</a> 
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AA">
-    <b>Todos os blocos de texto têm espaçamento entre as palavras de pelo menos 0,16 vez o tamanho da fonte.</b> <a href="#15">[NBR 5.12.4]</a>  <a href="#8">[8]</a>
+    <b>Todos os blocos de texto têm espaçamento entre as palavras de pelo menos 0,16 vez o tamanho da fonte (AA).</b> <a href="#15">[NBR 5.12.4]</a>  <a href="#8">[8]</a>
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AAA">
-    <b>Não há perda de conteúdo ou funcionalidade quando o texto é redimensionado sem o uso de recursos de tecnologia assistiva em até 200 %.</b> <a href="#15">[NBR 5.12.7]</a> <a href="#7">[7]</a> <a href="#9">[9]</a>
+    <b>Não há perda de conteúdo ou funcionalidade quando o texto é redimensionado sem o uso de recursos de tecnologia assistiva em até 200 % (AAA).</b> <a href="#15">[NBR 5.12.7]</a> <a href="#7">[7]</a> <a href="#9">[9]</a>
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AAA">
-    <b>Textos estão alinhados conforme o sentido de leitura, a menos que o alinhamento seja essencial para a compreensão.</b> <a href="#15">[NBR 5.12.5]</a> <a href="#7">[7]</a> <a href="#16">[16]</a> 
+    <b>Textos estão alinhados conforme o sentido de leitura, a menos que o alinhamento seja essencial para a compreensão (AAA).</b> <a href="#15">[NBR 5.12.5]</a> <a href="#7">[7]</a> <a href="#16">[16]</a> 
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AAA">
-    <b>Blocos de texto têm no máximo 80 caracteres por linha.</b> <a href="#15">[NBR 5.12.6]</a> <a href="#4">[4]</a> <a href="#16">[16]</a> 
+    <b>Blocos de texto têm no máximo 80 caracteres por linha (AAA).</b> <a href="#15">[NBR 5.12.6]</a> <a href="#4">[4]</a> <a href="#16">[16]</a> 
 </label>
 
 
 ## Animação
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="A">
-    <b>Todos os movimentos de tela piscam abaixo de 3 vezes por segundo.</b> <a href="#10">[10]</a> <a href="#16">[16]</a>
+    <b>Todos os movimentos de tela piscam abaixo de 3 vezes por segundo (A).</b> <a href="#10">[10]</a> <a href="#16">[16]</a>
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="A">
-    Permitir que os usuários controlem as alterações de conteúdo que ocorrem em paralelo com outro conteúdo. <a href="#11">[11]</a>
+    Permitir que os usuários controlem as alterações de conteúdo que ocorrem em paralelo com outro conteúdo (A). <a href="#11">[11]</a>
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AAA">
-    Toda a animação deve obedecer à prefers-reduced-motion consulta de mídia. <a href="#12">[12]</a>
+    Toda a animação deve obedecer à prefers-reduced-motion consulta de mídia (AAA). <a href="#12">[12]</a>
 </label>
 
 ## Contraste de Cores
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AA">
-    Verificar o contraste de todos os ícones. <a href="#13">[13]</a>
+    Verificar o contraste de todos os ícones (AA). <a href="#13">[13]</a>
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AA">
-    <b>O texto (incluindo imagens de texto) possui contraste suficiente com o fundo de 4,5:1 para textos normais.</b> <a href="#15">[NBR 5.11.3]</a> <a href="#2">[2]</a> 
+    <b>O texto (incluindo imagens de texto) possui contraste suficiente com o fundo de 4,5:1 para textos normais (AA).</b> <a href="#15">[NBR 5.11.3]</a> <a href="#2">[2]</a> 
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AA">
-    <b>O texto (incluindo imagens de texto) possui contraste suficiente com o fundo de 3:1 para textos grandes.</b> <a href="#15">[NBR 5.11.3]</a> <a href="#2">[2]</a> 
+    <b>O texto (incluindo imagens de texto) possui contraste suficiente com o fundo de 3:1 para textos grandes (AA).</b> <a href="#15">[NBR 5.11.3]</a> <a href="#2">[2]</a> 
 </label>
 
 <label class="criterio">
   <input type="checkbox" class="criterio" data-level="AAA">
-    <b>O indicador de foco visível dos elementos focáveis tem relação de contraste de pelo menos 3:1 com o fundo e entre os estados em foco e sem foco. <a href="#15">[NBR 5.11.6]</a> <a href="#14">[14]</a>
-    </b>
+    <b>O indicador de foco visível dos elementos focáveis tem relação de contraste de pelo menos 3:1 com o fundo e entre os estados em foco e sem foco (AAA).</b> <a href="#15">[NBR 5.11.6]</a> <a href="#14">[14]</a>
+    
 </label>
 
 ## Referências Bibliograficas
