@@ -61,7 +61,6 @@ p {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-/* Quando focado (acessado por teclado) */
 .skip-link:focus {
   position: fixed;
   top: 20px;
@@ -69,6 +68,16 @@ p {
   width: auto;
   height: auto;
   overflow: visible;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 .navbar {
@@ -183,22 +192,27 @@ body.using-keyboard .nav-links a:focus-visible {
   color: #222;
   text-decoration: none;
   font-weight: 600;
-  border-bottom: 2px solid #e0e0e0;
-  transition: all 0.2s ease-in-out;
   font-size: 14pt;
+  border-radius: 6px;
+  box-shadow: 0 0 0 0 transparent; 
+  transition: box-shadow 0.25s ease-in-out, background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+.menu-plantas .plantas {
+  text-decoration: underline;
 }
 
 .menu-plantas a:hover,
 .menu-plantas a:focus {
+  box-shadow: 0 0 0 3px #2b6e2f;
+  background-color: #f9f9f9;
   color: black;
-  background-color: #f9f9f9; 
-  border-bottom-color: #2b6e2f; 
-  outline: none; 
 }
 
-.menu-plantas a::before {
-  content: "🌿 ";
-  color: #1e4f1e;
+body.using-keyboard .menu-plantas a:focus-visible {
+  background-color: #000000;
+  color: white;
+  box-shadow: 0 0 0 3px #ffffff;
 }
 
 body.using-keyboard .menu-plantas a:focus-visible {

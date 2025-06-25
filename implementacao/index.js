@@ -1,4 +1,4 @@
-// hover e focus da navbar
+// hover e focus 
 function handleFirstTab(e) {
   if (e.key === "Tab") {
     document.body.classList.add("using-keyboard");

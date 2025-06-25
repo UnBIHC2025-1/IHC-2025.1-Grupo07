@@ -13,9 +13,11 @@
 </head>
 
 <body>
-    <a href="#conteudo" class="skip-link" aria-label="Pular para o conteúdo principal">Pular para o conteúdo principal do guia</a>
-    <header>
-        <nav aria-label="Menu principal" role="navigation" class="navbar">
+    <a href="#conteudo" class="skip-link">Pular para o conteúdo principal do guia</a>
+    
+    <header role="banner">
+        <nav role="navigation" aria-labelledby="rotulo-nav" class="navbar">
+            <h2 id="rotulo-nav" class="visually-hidden">Menu principal</h2>
             <div class="logo">
                 <img class="logo" src="static/logo.svg" alt="Logo pequena do site Suculovers">
                 <h1>Suculovers</h1>
@@ -38,23 +40,37 @@
         </div>
     </header>   
 
-    <main id="conteudo">
-        <section id="inicio">
-            <h2>Bem-vindo ao Suculovers!</h2>
+    <main id="conteudo" role="main" aria-labelledby="titulo-conteudo">
+        <h2 id="titulo-conteudo" class="visually-hidden">Conteúdo principal do site</h2>
+        <section id="inicio" role="region" aria-labelledby="inicio-titulo">
+            <h2 id="inicio-titulo">Bem-vindo ao Suculovers!</h2>
             <p>Mais do que simples plantas, as suculentas são pequenas obras de arte da natureza. Com sua incrível variedade de formas e cores, elas trazem vida e personalidade para qualquer ambiente, de pequenos apartamentos a grandes jardins.</p><br>
             <p>A grande magia das suculentas está em sua resiliência. Por armazenarem água, elas exigem poucos cuidados e perdoam até os jardineiros mais esquecidos, sendo perfeitas para a vida moderna e agitada. Além de lindas, são a definição de praticidade.</p><br>
             <p>Este guia foi criado pelo Suculovers para ser seu parceiro nessa descoberta. Quer você seja um iniciante curioso ou alguém que já ama o verde, nosso objetivo é descomplicar o cultivo e mostrar como é fácil ter suculentas prósperas e felizes.</p><br>
         </section>
 
-        <section id="suculentas-faceis">
-            <h2>Suculentas Fáceis de Cuidar</h2>
+        <section id="suculentas-faceis" role="region" aria-labelledby="suculentas-titulo">
+            <h2 id="suculentas-titulo">Suculentas Fáceis de Cuidar</h2>
 
-            <nav aria-label="Menu de Suculentas Fáceis de Cuidar" role="navigation" class="menu-plantas">
+            <nav role="navigation" aria-labelledby="menu-plantas" class="menu-plantas">
+                <h3 id="menu-plantas" class="visually-hidden">Menu de Suculentas Fáceis</h3>
                 <ul>
-                    <li><a href="#babosa">Conheça a Babosa</a></li>
-                    <li><a href="#rosa">Saiba mais sobre a Echeveria</a></li>
-                    <li><a href="#jade">Descubra a Planta-jade</a></li>
-                    <li><a href="#zebra">Admire a Planta-zebra</a></li>
+                    <li><a href="#babosa">
+                        <span aria-hidden="true">🌿</span>
+                        <span class="plantas"> Conheça a Babosa</span>
+                    </a></li>
+                    <li><a href="#rosa">
+                        <span aria-hidden="true">🌿</span>
+                        <span class="plantas">Saiba mais sobre a Echeveria</span>
+                    </a></li>
+                    <li><a href="#jade">
+                        <span aria-hidden="true">🌿</span>
+                        <span class="plantas">Descubra a Planta-jade</span>
+                    </a></li>
+                    <li><a href="#zebra">
+                        <span aria-hidden="true">🌿</span>
+                        <span class="plantas">Admire a Planta-zebra</span>
+                    </a></li>
                 </ul>
             </nav>
 
@@ -71,8 +87,8 @@
             <p>Com suas listras brancas e folhas pontudas, a Planta-zebra é inconfundível. Ela é ideal para quem não tem um local com sol direto, pois prefere luz indireta e brilhante. Seu tamanho compacto a torna perfeita para decorar mesas e prateleiras, adicionando um toque de estilo sem exigir muito espaço ou atenção.</p>
         </section>
 
-        <section id="dicas-cuidados">
-            <h2>Dicas de Cuidados</h2>
+        <section id="dicas-cuidados" role="region" aria-labelledby="cuidados-titulo">
+            <h2 id="cuidados-titulo">Dicas de Cuidados</h2>
             <ul role="list">
                 <li><p>Evite regar em excesso. Espere o solo secar completamente antes de regar novamente.</p></li>
                 <li><p>Use vasos com furos para drenagem e substrato específico para suculentas ou cactos.</p></li>
@@ -81,8 +97,8 @@
             </ul>
         </section>
 
-        <section id="curiosidades">
-            <h2>Curiosidades</h2>
+        <section id="curiosidades" aria-labelledby="curiosidades-titulo">
+            <h2 id="curiosidades-titulo">Curiosidades das Suculentas</h2>
             <ul role="list">
                 <li><p>Algumas suculentas mudam de cor quando expostas ao sol intenso.</p></li>
                 <li><p>A Babosa é usada há séculos em tratamentos naturais para a pele e o cabelo.</p></li>
@@ -91,16 +107,17 @@
             </ul>
         </section>
 
-        <section id="contato" role="form">
-            <h2>Fale Conosco</h2>
+        <section id="contato" role="form" aria-labelledby="contato-titulo">
+            <h2 id="contato-titulo">Fale Conosco</h2>
             <p>Quer tirar dúvidas, sugerir conteúdo ou compartilhar sua experiência com suculentas? Fale com a gente! Preencha o formulário abaixo e responderemos o mais breve possível.</p>
 
-            <form>
-                <label for="nome">Nome completo (obrigatório):</label>
+            <form aria-label="Formulário de contato com campos obrigatórios">
+                <label for="nome">Nome completo <span style="color: #1e4f1e;">(obrigatório)</span>:</label>
                 <input id="nome" type="text" required autocomplete="name">
-                <label for="email">Endereço de e-mail (obrigatório):</label>
-                <input id="email" type="email" required autocomplete="email">
-                <label for="mensagem">Mensagem (obrigatório):</label>
+                <label for="email">Endereço de e-mail <span style="color: #1e4f1e;">(obrigatório)</span>:</label>
+                <input id="email" type="email" required autocomplete="email" aria-describedby="ajuda-email">
+                <small id="ajuda-email">Nós nunca compartilharemos seu e-mail.</small>
+                <label for="mensagem">Sua mensagem <span style="color: #1e4f1e;">(obrigatório)</span>:</label>
                 <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
                 <button type="submit">Enviar o formulário</button>
             </form>
@@ -109,7 +126,7 @@
 
     <a href="#conteudo" aria-label="Voltar para o conteúdo principal" class="skip-link"> Voltar para o conteúdo principal do guia</a> 
 
-    <footer>
+    <footer role="contentinfo">
         <p>2025 - Projeto acadêmico de Interação Humano Computador</p>
     </footer>
 
