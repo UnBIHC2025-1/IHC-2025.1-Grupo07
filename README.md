@@ -75,32 +75,31 @@ Para visualizar a implementação frontend do projeto em seu navegador, siga os 
 
 
 1. **Clone o repositório:**
-
-   ```bash
-   git clone https://github.com/UnBIHC2025-1/IHC-2025.1-Grupo07.git
-   cd IHC-2025.1-Grupo07/implementacao
-   ```
+    ```bash
+    git clone https://github.com/UnBIHC2025-1/IHC-2025.1-Grupo07.git
+    cd IHC-2025.1-Grupo07/implementacao
+    ```
 
 
 2. **Verifique se o Python está instalado** (versão 3 ou superior) rodando no terminal:
-  ```bash
-    python --version
-  ```
+    ```bash
+      python --version
+    ```
 
 
 Caso não esteja, baixe em [https://www.python.org/downloads/](https://www.python.org/downloads/).
 Caso esteja instalado, siga os passos a seguir:
 
 3. **Inicie um servidor local** com Python:
-  ```bash
-    python -m http.server 8000
-  ```
+    ```bash
+      python -m http.server 8000
+    ```
 
 
 4. **Abra seu navegador** e acesse:
-   ```bash
-   http://localhost:8000/implementacao/index.html
-   ```
+    ```bash
+    http://localhost:8000/implementacao/index.html
+    ```
 
 
 ## Equipe
