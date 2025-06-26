@@ -25,15 +25,47 @@ Além do checklist, o projeto também inclui uma seleção de **ferramentas úte
 
 ## Codificação
 
-Também como material da disciplina, foi realizada a codificação de uma página web que aplicasse, principalmente, a diretriz 2.4 da WCAG 2.2: **Operável: Navegação e Consistência**, especialmente os critérios
+Também como material da disciplina, foi realizada a codificação de uma página web que aplicasse, principalmente, a diretriz 2.4 da WCAG 2.2: **Operável: Navegação e Consistência**.
+
+---
+
+### Critérios WCAG implementados 
 
 | Critério | Nome                             | Aplicação                                                                 |
 |----------|----------------------------------|---------------------------------------------------------------------------|
-| 2.4.1    | Evitar bloqueio de teclado       | Todo conteúdo é navegável apenas com teclado                             |
-| 2.4.4    | Propósito do link                | Links possuem descrições claras e significativas                         |
-| 2.4.6    | Cabeçalhos e rótulos             | Uso consistente e descritivo de títulos e labels                         |
+| 2.4.1    | Contornar blocos                 | Disponibiliza um mecanismo para pular blocos repetitivos                  |
+| 2.4.4    | Propósito do link                | Links possuem descrições claras e significativas                          |
+| 2.4.6    | Cabeçalhos e rótulos             | Uso consistente e descritivo de títulos e labels                          |
 
 Essa página demonstra a aplicação dessa diretriz de acessibilidade digital em uma página que visa a informar sobre cuidados com suculentas.
+
+---
+
+### Técnicas de programação utilizadas
+
+Para garantir conformidade com os critérios WCAG, foram aplicadas diversas boas práticas de HTML e CSS, incluindo:
+
+- Utilização de **skip links** visíveis ao foco para pular blocos repetitivos
+- Definição de regiões da página com **landmarks ARIA** (`role="banner"`, `role="main"`, `role="navigation"`)
+- Criação de **links com textos claros e autoexplicativos**
+- Uso de **cabeçalhos hierárquicos** consistentes para estruturar o conteúdo
+- Associação entre **rótulos de formulário** e seus respectivos campos para facilitar a navegação assistiva
+- Estilo de **foco visível** para melhorar a navegação via teclado
+
+Essas abordagens contribuem para um site mais acessível, navegável e acolhedor para todos os perfis de usuário.
+
+---
+
+### Importância e Público-alvo
+
+A acessibilidade digital é um direito previsto em leis como a Lei Brasileira de Inclusão (13.146/2015) e garante que todas as pessoas possam acessar, compreender e interagir com conteúdos online de forma autônoma. Implementar esses critérios não é apenas uma obrigação legal ou acadêmica, mas uma prática ética e inclusiva que amplia o acesso à informação e fortalece a usabilidade da web para todos.
+
+Os critérios aplicados têm como foco melhorar a navegação e compreensão para:
+
+- **Pessoas que usam apenas teclado** para navegar, como usuários com mobilidade reduzida
+- **Pessoas que usam leitores de tela**, como pessoas cegas ou com baixa visão
+- **Pessoas com deficiência cognitiva**, que precisam de orientação clara e rótulos compreensíveis
+- **Todos os usuários**, pois estrutura clara e previsível melhora a usabilidade para qualquer pessoa
 
 ---
 
@@ -67,7 +99,7 @@ Caso esteja instalado, siga os passos a seguir:
 
 4. **Abra seu navegador** e acesse:
    ```bash
-   http://localhost:8000/index.html
+   http://localhost:8000/implementacao/index.html
    ```
 
 
