@@ -98,7 +98,7 @@ Caso esteja instalado, siga os passos a seguir:
 
 4. **Abra seu navegador** e acesse:
     ```bash
-    http://localhost:8000/implementacao/index.html
+    http://localhost:8000/index.html
     ```
 
 
